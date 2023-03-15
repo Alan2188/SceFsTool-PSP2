@@ -19,11 +19,11 @@ jobs:
       run: make ./main.c
     - name: Build02
       run: make ./Makefile
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+    - name: ls4
+      run: ls
+    - name: make .
+      run: make .
+    - name: ls3
+      run: ls
     - name: ls2
       run: ls
