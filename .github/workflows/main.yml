@@ -1,4 +1,4 @@
-on: [workflow_run]
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-18.04
