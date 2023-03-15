@@ -1,0 +1,9 @@
+- name: cache-make
+  # You may pin to the exact commit or the version.
+  # uses: flat35hd99/cache-make@2d34ad646051ea075f1e3b420da6725bbd892b49
+  uses: flat35hd99/cache-make@v1.0.0
+  with:
+    # commit id, tag, etc.
+    before-ref: # optional
+    # commit id, tag, etc.
+    after-ref: # optional
