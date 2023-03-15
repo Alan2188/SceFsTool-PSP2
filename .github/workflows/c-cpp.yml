@@ -13,11 +13,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build
+    - name: ls Directory
       run: ls
+    - name: Build01
+      run: make psp2scefstool
+    - name: Build02
+      run: make ./Makefile
     - name: make
       run: make
     - name: make check
       run: make check
     - name: make distcheck
       run: make distcheck
+    - name: ls2
+      run: ls
